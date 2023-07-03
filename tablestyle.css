@@ -1,0 +1,60 @@
+body{
+    background-color: #ffcccc;
+    height:100vh;
+    display: grid;
+    place-items: center;
+}
+
+#backbutn{
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 5px;
+            background-color: #b2bec3;
+            color: black;
+            float:left;
+            margin:15px;
+            cursor: pointer;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 600px;
+    box-shadow: -10px 20px 20px -6px rgba(0,0,0,0.5);
+    padding: 2px;
+    border: 1px solid rgb(15, 13, 13);
+    border-collapse: collapse;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#gn{
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+}
+#vot{
+    font-size: 18px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+
+#data:nth-child(odd){
+    background-color: #b2bec3;    
+}
+
+#data:nth-child(odd):hover{
+    background-color: dodgerblue;
+    transform: scale(2);
+    transition: transform 200ms ease-in;
+}
+
+
+
+
+

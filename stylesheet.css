@@ -1,0 +1,31 @@
+body{
+    
+    background-color: #ffcccc;
+}
+
+#header{
+    padding: 5px;
+}
+
+#header h1{
+    font-family: sans-serif;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 13%;
+    
+}
+#loginbtn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #b2bec3;
+    color: black;
+}
+
